@@ -1,0 +1,82 @@
+; 1. Classes e Objetos
+; 1.1. As classes estão bem definidas e representam os elementos principais do jogo?
+; //SIM
+
+; 1.2. Os objetos foram instanciados corretamente a partir das classes criadas?
+ ; //SIM
+
+; 1.3. As classes têm responsabilidades bem definidas e coesas?
+; //SIM , cada 
+
+
+
+; 2. Modificadores de Estado e de Acesso
+; 2.1. Os modificadores de acesso foram utilizados corretamente para atributos e métodos (ex.: private, public)?
+ ; //SIM
+; 2.2. Os métodos getters e setters foram implementados para acessar atributos privados?
+; //SIM
+
+; 2.3. Atributos ou métodos static e/ou final foram usados quando apropriado?
+; // NÃO ,não há uso desses métodos 
+
+
+
+; 3. Classes Abstratas
+; 3.1. Foi criada ao menos uma classe abstrata para modelar conceitos genéricos do jogo?
+; //SIM
+; 3.2. A classe abstrata possui ao menos um método abstrato implementado nas subclasses?
+; //SIM 
+
+
+
+; 4. Interfaces
+; 4.1. Há pelo menos uma interface criada para representar comportamentos comuns?
+ ; //SIM
+; 4.2. A interface foi implementada por pelo menos duas classes diferentes?
+;  //SIM
+
+
+
+; 5. Herança
+; 5.1. A herança foi utilizada para reaproveitar características e comportamentos entre classes?
+ ; //SIM
+; 5.2. Os princípios de substituição e especialização foram respeitados nas relações de herança?
+ ; // SIM , Cada classe filha especializa o comportamento do personagem, substituindo ou estendendo a funcionalidade da superclasse ( que no caso é :Personagem).
+
+
+; 6. Polimorfismo
+; 6.1. Métodos polimórficos foram implementados, com comportamentos diferentes dependendo da classe?
+ ;//SIM
+; 6.2. Objetos de subclasses foram manipulados através de referências das classes base ou interfaces?
+ ;//SIM
+
+
+; 7. Sobrescrita de Métodos (Override)
+; 7.1. Pelo menos um método herdado foi sobrescrito para comportamentos específicos?
+;//SIM
+; 7.2. O anotador @Override foi utilizado corretamente?
+;//SIM 
+
+
+; 8. Sobrecarga de Métodos (Overload)
+; 8.1. Algum método foi sobrecarregado, com mais de uma versão criada com assinaturas diferentes?
+; SIM,mas foi somente construtores
+
+
+; 9. Métodos Construtores
+; 9.1. Todas as classes possuem pelo menos um método construtor para inicializar atributos?
+;//SIM
+
+; 9.2. Há exemplos de sobrecarga de construtores no código?
+; //SIM
+; 9.3. Os construtores foram utilizados corretamente na criação de objetos?
+; //SIM
+
+
+; 10. Tratamento de Exceções
+; 10.1. Há tratamento de exceções utilizando blocos try-catch?
+ ;//SIM
+; 10.2. Foi criada pelo menos uma exceção personalizada e lançada?
+;//SIM
+; 10.3. O programa exibe mensagens de erro informativas ao usuário em casos de exceções?
+;//SIM
